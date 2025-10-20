@@ -32,8 +32,3 @@ The value was estimated by the Epoch AI research institute, which focuses on ana
 
 
 
-
-
-
-
-
