@@ -1,43 +1,32 @@
-﻿# Analysis of the quality and satisfaction of life of European young adults 
+# Prediction of AI Development in the US, EU, and China
 ## Aim of the project
-The analysis was made to categorize European countries based on selected economic and social measures that may influence or determine the level of quality of life in a given country, and to examine the factors influencing the level of life satisfaction. Original data is stored in the  `data/raw/`.
+The purpose of this analysis is to forecast the development of artificial intelligence (AI) in three major regions — the United States, the European Union, and China — based solely on the number of notable machine learning models created between 2003 and 2023. The project aims to estimate future growth trends in model creation for the period 2024–2027. 
 ## Why I've chosen this topic
-Many countries in the European Union have displayed significant economic growth in recent years, but this has not solved the existing problems that young adults face.
-On top of that, high rental costs increase, lifestyle and mental diseases, and unemployment contribute to isolation and poor well-being. Global happiness reports, such as those published by the World Happiness Report, show that countries with higher GDP per capita tend to have higher levels of life satisfaction; however, the issue is much more complex.
-Understanding what influences citizens' happiness can help governments and organizations create policies that improve society's overall well-being. For example, increasing access to public services and improving working conditions are shown to positively influence the quality of life.
+The number of significant AI and machine learning models reflects a region’s innovation potential and research intensity. Comparing the United States, the European Union, and China allows assessing the evolving technological competitiveness among them. Predicting future trends can provide insights into which region is likely to maintain or gain leadership in AI innovation.
 ## Questions related to the goal
-In order to fulfill the goal of the analysis I created more specific questions:
-* To what extent can the life satisfaction of people aged 25-34 be explained by variables determining well-being, health and access to care, as well as the economic conditions in the given country?
-* Are life satisfaction and high fertility rates closely related?
-* Do geographically and culturally related countries exhibit comparable levels of life satisfaction, health, and fertility?
+To achieve the research aim, the analysis focuses on several key questions:
+* How will the number of notable machine learning models evolve in the US, EU, and China after 2023?
+* How would the number of notable machine learning models develop if not for the pandemic outbreak?
+* Could the EU or China narrow the existing technological gap with the United States in the nearest future?
 ## Data used in the project
-Data was downloaded from Eurostat and included seven variables from 2022:
-* GDP - GDP per capita
-* MED - reported unmet needs for medical examinations because travel or the waiting list is too expensive or too far
-* ILC HP - percentage of people who say they have not been happy at all in the last 4 weeks
-* ILC_SAT - overall life satisfaction index
-* FER - fertility rate
-* EMPL - indicator of people not in employment or education
-* HLTH - indicator of poor or very poor health
+The value was estimated by the Epoch AI research institute, which focuses on analyzing trends related to artificial intelligence. According to the published methodology, a notable model must be significantly better than a recognized benchmark and have a documented effectiveness in numerous cases. Furthermore, the model is required to be cited in scientific papers at least 1,000 times.
 ## Key results
-* The chosen variables related to  well-being, health and access to care, as well as the economic conditions doesn't strongly correlate or explain the average life satisfaction of adults aged 25-34 in a country. 
-* The classification yielded few clusters containing countries with similar characteristics. The most similar group included Bulgaria, Turkey, North Macedonia, and Montenegro, which stood out due to their citizens' low life satisfaction
+* The prediction indicates a continued upward trend in the number of notable ML models across all regions between 2024 and 2027.
+* The United States maintains a clear and growing advantage compared to other regions.
 ## Methods used in the analysis
-* Spearman and Pearson correlation 📑
-* Linear Regression 📈
-* Cluster Analysis 🪵
-## Requirements to open the project locallly
-* Python **3.9**
-* JupyterLab/Jupyter Notebook
-* Packages from requirements.txt
-
-## Instalation and running 
- **Clone repo from GitHub**
+* Exploratory data analysis (EDA)
+* Time series analysis
+* Autoregressive and exponential smoothing models (ARIMA, ETS, polynomial regression)
+* Evaluation of prediction quality: RMSE, MAE, and residual diagnostics
+## Requirements to open the project locally
+* Python 3.9+
+* Jupyter Notebook / JupyterLab
+* Required packages listed in requirements.txt
+## Installation and running
+**Clone repo from GitHub**
    ```bash
    git clone git@github.com:kacper22g/EU_citizens_satisfaction.git
    cd EU_citizens_satisfaction 
-
-
 
 
 
